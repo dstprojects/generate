@@ -1,0 +1,65 @@
+<!doctype html>
+
+<html>
+
+    <head>
+    
+        <meta charset="utf-8">    
+        
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="p5/p5.js"></script>
+        <script src="p5/addons/p5.sound.js"></script>
+        <script src="p5/addons/p5.dom.js"></script>
+        <script src="dist/NexusUI.js"></script>
+        
+        <script src="js/script.js"></script>
+        
+    
+    </head>
+    
+    <body>
+        
+        <div id="piano"></div>
+    
+        <div id="seq"></div>
+        
+        <div id="start"></div>
+    
+    </body>
+    
+    <script>
+        
+        var piano = new Nexus.Piano('#piano',{
+            'size': [500,125],
+            'mode': 'button',  // 'button', 'toggle', or 'impulse'
+            'lowNote': 60,
+            'highNote': 96
+        })
+    
+        piano.on('change',function(v) {
+            //console.log(v);
+            keyPressed(v);
+
+        })
+    
+        var sequencer = new Nexus.Sequencer('#seq',{
+         'size': [320,200],
+         'mode': 'toggle',
+         'rows': 5,
+         'columns': 8
+        })
+        
+        sequencer.on('change',function(v) {
+          
+        })
+        
+        sequencer.on('step',function(step) {
+          //console.log(step);
+            playStep(step)
+        })
+        
+        
+    
+    </script>
+
+</html>

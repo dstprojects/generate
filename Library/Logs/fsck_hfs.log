@@ -1,0 +1,16 @@
+
+fsck_hfs started at Fri Feb 16 01:35:40 2018
+** /dev/rdisk2s2 (NO WRITE)
+   Executing fsck_hfs (version hfs-305.10.1).
+** Checking Journaled HFS Plus volume.
+   The volume name is StellarPhoenixMacDataRecovery
+** Checking extents overflow file.
+** Checking catalog file.
+** Checking multi-linked files.
+** Checking catalog hierarchy.
+** Checking extended attributes file.
+** Checking volume bitmap.
+** Checking volume information.
+** The volume StellarPhoenixMacDataRecovery appears to be OK.
+fsck_hfs completed at Fri Feb 16 01:35:40 2018
+

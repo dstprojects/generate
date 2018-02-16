@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>nbn</string>
+	<string>scd</string>
+	<string>mindnode</string>
+	<string>emberbackup</string>
+	<string>cplink</string>
+	<string>rgd</string>
+	<string>pxm</string>
+	<string>_ultheme</string>
+	<string>iwork-tmp</string>
+	<string>scn</string>
+	<string>soundhoundhistory</string>
+	<string>cpweb</string>
+	<string>tka</string>
+	<string>scene</string>
+	<string>_ulstyle</string>
+	<string>mindproj</string>
+	<string>cptext</string>
+	<string>lslibrary</string>
+	<string>ulysses</string>
+	<string>tkp</string>
+	<string>embersnap</string>
+	<string>cpimage</string>
+	<string>goodnotes</string>
+	<string>dayone</string>
+	<string>studydeck</string>
+	<string>ccc</string>
+	<string>tkv</string>
+	<string>embermdbackup</string>
+	<string>pzdoc</string>
+	<string>ulproject</string>
+	<string>soundhoundbookmark</string>
+</array>
+</plist>
